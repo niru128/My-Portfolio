@@ -69,7 +69,7 @@
               <ul className='list-disc list-inside space-y-1 text-base'>
 
                 <li className=' text-amber-300 font-bold'><a href='/Certificates/MERN.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Full stack development - Udemy</a></li>
-                <li className=' text-amber-300 font-bold'><a href='/Certificates/J  avaudemy.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Java Complete bootcamp - Udemy</a></li>
+                <li className=' text-amber-300 font-bold'><a href='/Certificates/Javaudemy.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Java Complete bootcamp - Udemy</a></li>
                 <li className=' text-amber-300 font-bold'><a href='/Certificates/cloud.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Cloud Security fundamentals - Palo Alto Networks</a></li>
                 <li className=' text-amber-300 font-bold'><a href='/Certificates/network.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Network Security Fundamentals - Palo Alto Networks</a></li>
                 <li className=' text-amber-300 font-bold'><a href='/Certificates/cyber.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Cyber Security Fundamentals - Palo Alto Networks</a></li>

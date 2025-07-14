@@ -11,10 +11,10 @@
       <>
 
 
-        <div className='h-full flex flex-col md:flex-row gap-6 px-4 py-6  text-white max-w-pxl mx-auto'>
+        <div className='flex flex-col md:flex-row h-auto md:max-h-9  min-h-screen gap-6 px-4 py-6 text-white max-w-7xl mx-auto  overflow-auto  '>
           {/* Left section */}
 
-          <div className='w-full md:w-1/4 md:h-[calc(100vh-5rem)]  flex flex-col items-center justify-start gap-6  md:top-16 px-2 py-2 '>
+          <div className='w-full md:w-1/4 p-2 rounded-2xl shadow-md flex flex-col items-center gap-6 md:sticky top-20'>
           
             <img src={ProfilePic} alt='Profile' className='w-40 h-40 rounded-full object-cover border-4 border-indigo-300' />
 
@@ -34,7 +34,9 @@
           </div>
 
           {/* Right content */}
-          <div className='w-full md:w-3/4 flex flex-col overflow-y-auto max-h-[calc(100vh-5rem)] pr-4 space-y-10 custom-scroll'>
+          <div className='w-full md:w-3/4 flex flex-col gap-10 pr-4 custom-scroll 
+  md:overflow-y-auto md:max-h-[calc(100vh-10rem)] 
+  overflow-visible'>
 
 
             <div>

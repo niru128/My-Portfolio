@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
+  html, body {
+    height: 100%;
+    overflow-x: hidden; /* optional: avoids horizontal scroll */
+    overflow-y: auto;   /* enables vertical scroll */
+    scroll-behavior: smooth;
+  }
 
 /* custom-scroll.css */
 .custom-scroll::-webkit-scrollbar {

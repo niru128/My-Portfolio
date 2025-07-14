@@ -11,7 +11,7 @@
       <>
 
 
-        <div className='flex flex-col md:flex-row h-auto md:max-h-9  min-h-screen gap-6 px-4 py-6 text-white max-w-7xl mx-auto  overflow-auto  '>
+        <div className='flex flex-col md:flex-row h-auto md:max-h-[ca]  min-h-screen gap-6 px-4 py-6 text-white max-w-7xl mx-auto  overflow-auto  '>
           {/* Left section */}
 
           <div className='w-full md:w-1/4 p-2 rounded-2xl shadow-md flex flex-col items-center gap-6 md:sticky top-20'>
@@ -81,7 +81,7 @@
 
             <div>
               <h2 className='text-3xl font-extrabold text-blue-400 mb-4 underline'>RESUME</h2>
-              <a href='' download className='inline-flex gap-1 p-3 items-center hover:bg-indigo-600 text-white font-semibold rounded-full shadow transition-all duration-300'><FaDownload />Download Resume</a>
+              <a href='/Certificates/resume.pdf' download className='inline-flex gap-1 p-3 items-center hover:bg-indigo-600 text-white font-semibold rounded-full shadow transition-all duration-300'><FaDownload />Download Resume</a>
             </div>
 
           </div>

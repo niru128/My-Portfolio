@@ -1,11 +1,7 @@
   import React from 'react';
   import ProfilePic from '../assets/image.png'
   import { FaMapMarkerAlt, FaUniversity, FaDownload, FaGithub, FaLinkedin, FaPhone, FaEnvelope, FaCalendarAlt, FaBook, FaGit } from 'react-icons/fa';
-  import cloud from '../assets/Certificates/cloud.pdf'
-  import mern from '../assets/Certificates/MERN.pdf'
-  import network from '../assets/Certificates/network.pdf'
-  import java from '../assets/Certificates/javaudemy.pdf'
-  import cyber from '../assets/Certificates/cyber.pdf'
+
   import { SiLeetcode } from "react-icons/si";
 
   const About = () => {
@@ -72,11 +68,11 @@
               <h3 className='text-3xl font-extrabold text-blue-400 mb-4 underline'>Certifications</h3>
               <ul className='list-disc list-inside space-y-1 text-base'>
 
-                <li className=' text-amber-300 font-bold'><a href={mern} target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Full stack development - Udemy</a></li>
-                <li className=' text-amber-300 font-bold'><a href={java} target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Java Complete bootcamp - Udemy</a></li>
-                <li className=' text-amber-300 font-bold'><a href={cloud} target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Cloud Security fundamentals - Palo Alto Networks</a></li>
-                <li className=' text-amber-300 font-bold'><a href={network} target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Network Security Fundamentals - Palo Alto Networks</a></li>
-                <li className=' text-amber-300 font-bold'><a href={cyber} target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Cyber Security Fundamentals - Palo Alto Networks</a></li>
+                <li className=' text-amber-300 font-bold'><a href='/Certificates/MERN.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Full stack development - Udemy</a></li>
+                <li className=' text-amber-300 font-bold'><a href='/Certificates/javaudemy.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Java Complete bootcamp - Udemy</a></li>
+                <li className=' text-amber-300 font-bold'><a href='/Certificates/cloud.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Cloud Security fundamentals - Palo Alto Networks</a></li>
+                <li className=' text-amber-300 font-bold'><a href='/Certificates/network.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Network Security Fundamentals - Palo Alto Networks</a></li>
+                <li className=' text-amber-300 font-bold'><a href='/Certificates/cyber.pdf' target='_blank' className='hover:text-blue-600 hover:underline transition-all duration-300'>Cyber Security Fundamentals - Palo Alto Networks</a></li>
 
               </ul>
             </div>
